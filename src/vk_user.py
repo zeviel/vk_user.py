@@ -356,7 +356,7 @@ class VkUserClient:
     def send_message(self, peer_id: int, message: str):
         data = {"message": message}
         if peer_id < 2000000000:
-            eata["user_id"] = peer_id
+            data["user_id"] = peer_id
         else:
             data["peer_id"] = peer_id
         return requests.post(
