@@ -1,5 +1,5 @@
 # vk_user.py
-Mobile-API for vkontakte social network
+Mobile-API for [vkontakte](https://vk.com) social network
 
 ## Example
 ```python3
